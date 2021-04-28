@@ -1,6 +1,6 @@
 package csc439team7.blackjack;
 
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 /**
  * Description: Playing card object to be used in Blackjack.
@@ -37,6 +37,7 @@ public class Card {
     public Card(char mySuit, int myNumber){
         logger.entering(getClass().getName(), "Card");
 
+        logger.log(Level.INFO, "Test log to terminal");
         // Make sure myNumber is in range
         if (myNumber < 1 || myNumber > 13){
             //throw an exception

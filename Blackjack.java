@@ -1,6 +1,6 @@
 package csc439team7.blackjack;
 
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 /**
  * Description: Blackjack class to be used later on.

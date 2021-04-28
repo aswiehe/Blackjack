@@ -1,7 +1,7 @@
 package csc439team7.blackjack;
 
 import java.util.ArrayList;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 /**
  * Description: Hand object to be used in Blackjack.
