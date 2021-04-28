@@ -1,3 +1,0 @@
-# Blackjack
-
-## Src files only
