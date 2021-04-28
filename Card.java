@@ -37,7 +37,7 @@ public class Card {
     public Card(char mySuit, int myNumber){
         logger.entering(getClass().getName(), "Card");
 
-        logger.log(Level.INFO, "Test log to terminal");
+        logger.info("log to terminal");
         // Make sure myNumber is in range
         if (myNumber < 1 || myNumber > 13){
             //throw an exception
