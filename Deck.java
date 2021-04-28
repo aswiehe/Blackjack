@@ -2,7 +2,7 @@ package csc439team7.blackjack;
 
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.logging.Logger;
+import java.util.logging.*;
 
 /**
  * Description: Deck object to be used in Blackjack.
